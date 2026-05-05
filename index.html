@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Welcome to Hogwarts</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="intro">
+      <div id="introText"></div>
+    </div>
+    <canvas id="stars"></canvas>
+
+    <div id="home">
+      <h1>⚡ Welcome to Hogwarts ⚡</h1>
+      <button onclick="enterMagic()">Enter</button>
+    </div>
+
+    <div id="surprise" class="hidden">
+      <div id="message">
+        🧙‍♀️ You are a true wizard! 🧙‍♀️ <br /><br />
+        This is made just for YOU Secret Agent Hope you like it
+      </div>
+    </div>
+
+    <div class="signature">Made by Abdelwahab Essam</div>
+
+    <button onclick="chooseHouse()">Click Me Basma !</button>
+    <p id="houseResult"></p>
+    <audio id="magicSound" src="magic.mp3"></audio>
+    <div id="lightning"></div>
+    <section id="nameReveal" class="screen">
+      <h1 id="nameText"></h1>
+    </section>
+
+    <p id="houseResult"></p>
+    <script src="main.js"></script>
+  </body>
+</html>
