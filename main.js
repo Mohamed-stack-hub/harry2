@@ -169,7 +169,7 @@ function playIntroSound() {
 // =========================
 // 🪄 NAME WITH WAND + SMOKE
 // =========================
-const herName = "Habiba to Gryffindor... 🦁";
+const herName = "Habiba to Gryffindor.🦁";
 
 function showNameCinematic() {
   const el = document.getElementById("nameText");
